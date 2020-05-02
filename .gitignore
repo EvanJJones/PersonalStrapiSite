@@ -110,9 +110,4 @@ coverage
 exports
 .cache
 build
-
-############################
-# Other
-############################
-
-app.yaml
+package-lock.json
