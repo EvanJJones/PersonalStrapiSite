@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "tests",
   "info": {
-    "name": "Test"
+    "name": "Project"
   },
   "options": {
     "increments": true,
@@ -11,6 +11,29 @@
   "attributes": {
     "Title": {
       "type": "string"
+    },
+    "URL1": {
+      "type": "string"
+    },
+    "URL2": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Screenshot": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Date": {
+      "type": "date"
     }
   }
 }
