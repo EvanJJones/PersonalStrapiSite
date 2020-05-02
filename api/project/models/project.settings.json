@@ -1,6 +1,6 @@
 {
   "kind": "collectionType",
-  "collectionName": "tests",
+  "collectionName": "projects",
   "info": {
     "name": "Project"
   },
@@ -34,6 +34,9 @@
     },
     "Date": {
       "type": "date"
+    },
+    "Tech": {
+      "type": "string"
     }
   }
 }
